@@ -10,4 +10,3 @@ resources:
   - mongo-service.yaml
   - pacman-deployment.yaml
   - pacman-service.yaml
-  - pacman-route.yaml
