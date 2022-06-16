@@ -2,4 +2,4 @@ bases:
   - ../../base
 
 resources:
-  - pacman-service.yaml
+  - pacman-route.yaml
