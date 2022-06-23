@@ -1,3 +1,4 @@
 # Pac-Man Demo App
 
-This is just a handy copy for me to easily reference.
+Deploy [pacman](https://github.com/dlbewley/pacman) application to [OpenShift](overlays/openshift) or [XKS](overlays/xks).
+
