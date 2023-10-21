@@ -1,0 +1,15 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: pacman
+  labels:
+    app: pacman
+spec:
+  clusterConditions:
+    - type: ManagedClusterConditionAvailable
+      status: "True"
+  clusterSelector:
+    matchLabels:
+      licensed/pacman: "true"
+  #clusterReplicas: 1  #Apply to how many matched clusters, default is ALL
